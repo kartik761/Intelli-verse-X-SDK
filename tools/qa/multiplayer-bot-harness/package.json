@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p .",
-    "run:script": "ts-node src/runner.ts"
+    "run:script": "node api.js && ts-node src/runner.ts"
   },
   "dependencies": {
     "@intelliversex/multiplayer": "workspace:*",

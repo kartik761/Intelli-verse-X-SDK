@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "build": "tsc --noEmit && vite build",
-    "start": "vite preview --host"
+    "start": "node api.js && vite preview --host"
   },
   "dependencies": {
     "@heroiclabs/nakama-js": "^2.8.0",
